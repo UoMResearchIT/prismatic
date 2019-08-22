@@ -1,0 +1,16 @@
+---
+
+name: prismatic
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python = 3
+  - boost
+  - hdf5 >=1.10 *mpi_openmp*
+  - fftw >=3.3 *mpi_openmp*
+  - qt >=5
+  - numpy >= 1.13.0
+  - matplotlib >= 2.0.2
+  - h5py >= 2.9.0
