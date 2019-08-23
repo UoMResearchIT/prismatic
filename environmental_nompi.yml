@@ -1,6 +1,6 @@
 ---
 
-name: prismatic
+name: prismatic_nompi
 
 channels:
   - conda-forge
@@ -8,8 +8,8 @@ channels:
 dependencies:
   - python = 3
   - boost
-  - hdf5 >=1.10 *mpi_openmp*
-  - fftw >=3.3 *mpi_openmp*
+  - hdf5 >=1.10
+  - fftw >=3.3
   - qt >=5
   - numpy >= 1.13.0
   - matplotlib >= 2.0.2
